@@ -290,8 +290,8 @@ a.navbar-item.is-active {
 }
 
 #post {
-    @media (min-width: 768px) {
-        margin: auto 2.5vmax;
+    @media (min-width: 1000px) {
+        margin: auto 1.5vmax;
     }
     a {
         text-decoration: underline;
@@ -324,10 +324,10 @@ a.navbar-item.is-active {
             background-color: grey;
         }
         img, iframe {
-            max-width: calc(100% - 25vw);
+            max-width: calc(100% - 0vw);
             margin: 0.25rem auto;
             @media (max-width: 768px) {
-                max-width: calc(100% - 5vw);
+                max-width: calc(100% - 1vw);
             }
         }
         ul, ol {
